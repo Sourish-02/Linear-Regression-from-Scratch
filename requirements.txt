@@ -1,1 +1,4 @@
-
+numpy (Used for matrix and vector representations)
+matplotlib (Used for data visualisation and plotting)
+pandas (Used for reading datasets)
+scikit-learn (Used for comparing obtained results with standard ML implementation)
