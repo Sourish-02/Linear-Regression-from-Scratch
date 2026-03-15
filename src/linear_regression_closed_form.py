@@ -26,3 +26,11 @@ print("R2 score:", r2)
 
 # MSE: 9.434852832251472
 # R2 score: 0.9887991524196075
+
+import matplotlib.pyplot as plt
+
+plt.scatter(X_test[:,1], y_test, label="Actual data")
+plt.plot(X_test[:,1], y_pred, color='red', label="Regression line")
+plt.legend()
+plt.savefig("regression_plot.png")
+plt.show()
