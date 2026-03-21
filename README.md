@@ -5,3 +5,4 @@ Test and Train data used from https://www.kaggle.com/datasets/andonians/random-l
 
 For the training and test data used,
 1. Closed Form (Normal Equation): MSE= 9.434852832251472, R2 score= 0.9887991524196075
+2. Batch Gradient Descent: MSE= 9.462345076972634 (Learning Rate= 0.0001)
